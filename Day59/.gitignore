@@ -1,0 +1,37 @@
+# Arquivos de compilação do Python
+__pycache__/
+*.py[cod]
+
+# Configurações de ambiente virtual
+venv/
+env/
+*.venv
+
+# Arquivos de log e cache
+*.log
+*.cache
+*.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuração de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependências geradas automaticamente
+.Python
+poetry.lock
+pipenv.lock
+
+# Arquivos temporários do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de deploy
+*.env
+*.secret
