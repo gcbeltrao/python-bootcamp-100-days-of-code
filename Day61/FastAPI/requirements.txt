@@ -1,0 +1,6 @@
+fastapi
+pydantic
+jinja2
+uvicorn
+python-multipart
+pydantic[email]
